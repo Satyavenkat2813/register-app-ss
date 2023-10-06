@@ -2,7 +2,7 @@ pipeline {
   agent {label 'agent'}
   tools {
     jdk 'jdk17'
-    mavne 'mavne3'
+    maven 'mavne3'
   }
   stages {
     stage ("Clenup Workplace"){
